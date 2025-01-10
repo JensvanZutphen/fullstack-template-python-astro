@@ -8,7 +8,6 @@ This is a fullstack template using Python for the backend and Astro for the fron
 - Python backend with Flask
 - Astro frontend
 - Docker support for easy deployment
-- Pre-configured linting and formatting
 
 ## Getting Started
 
