@@ -1,4 +1,5 @@
 ---
+import MainLayout from '../layouts/MainLayout.astro';
 import ApiTest from '../components/ApiTest.svelte';
 ---
 
@@ -20,8 +21,8 @@ import ApiTest from '../components/ApiTest.svelte';
         </style>
     </head>
     <body>
-        <main>
+        <MainLayout/>
             <ApiTest client:load />
-        </main>
+
     </body>
 </html>

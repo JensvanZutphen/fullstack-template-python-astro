@@ -12,7 +12,7 @@ RUN npm install
 COPY . .
 
 # Expose the development and debugger ports
-EXPOSE 3000 9229
+EXPOSE 3000 9229 8969
 
 # Default command for development
 CMD ["node", "--inspect=0.0.0.0:9229", "node_modules/.bin/astro", "dev", "--port", "3000", "--host", "0.0.0.0"]
